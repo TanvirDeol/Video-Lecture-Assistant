@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+tensorflow = "*"
+youtube-transcript-api = "*"
+tensorflow-hub = "*"
+pyinstaller = "*"
+django = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
